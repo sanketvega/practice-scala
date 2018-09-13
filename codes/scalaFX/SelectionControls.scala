@@ -1,3 +1,20 @@
+/*
+ This code is from a book 
+ <Introduction to Programming and Problem-solving Using Scala>
+ written by Mark C. Lewis
+*/
+import scalafx.Includes._
+import scalafx.scene.Scene
+import scalafx.application
+import scalafx.application.JFXApp
+import scalafx.scene.control.Label
+import scalafx.scene.control.ChoiceBox
+import scalafx.scene.control.ComboBox
+import scalafx.scene.control.ListView
+import scalafx.collections.ObservableBuffer
+import scalafx.event.ActionEvent
+
+
 val app = new JFXApp {
     stage = new application.JFXApp.PrimaryStage {
       title = "Selection Controls"
