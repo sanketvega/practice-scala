@@ -1,3 +1,9 @@
+/*
+ This code is from a book 
+ <Introduction to Programming and Problem-solving Using Scala>
+ written by Mark C. Lewis
+*/
+
 import scalafx.application
 import scalafx.application.JFXApp
 import scalafx.scene.Scene
@@ -11,7 +17,6 @@ val app = new JFXApp {
     scene = new Scene(500, 300) {
       fill = Color.Coral
       val button = new Button("Click me!")
-      content = button
       button.layoutX = 75
       button.layoutY = 45
       val rectangle = Rectangle(200, 150)
