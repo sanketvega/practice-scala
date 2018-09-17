@@ -1,3 +1,9 @@
+/*
+ This code is from a book 
+ <Introduction to Programming and Problem-solving Using Scala>
+ written by Mark C. Lewis
+*/
+
 import scalafx.Includes._
 import scalafx.application.JFXApp
 import scalafx.scene.{Scene, ParallelCamera, PerspectiveCamera, AmbientLight, PointLight}
